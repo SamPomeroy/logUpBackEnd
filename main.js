@@ -12,7 +12,9 @@ const password3 = "supToThis"
 
 
 // **YOUR** code below. Pass those tests!
-
+function isValidEmail(){
+  if (user1)
+}
 
 
 // Our code below. Do not touch!
