@@ -12,10 +12,39 @@ const password3 = "supToThis"
 
 
 // **YOUR** code below. Pass those tests!
-function isValidEmail(){
-  if (user1)
-}
 
+function isValidEmail(str){
+  if (str.indexOf(".prsvr@gmail.com") >= 1){
+   return true
+   } if (str.indexOf("@perseverenow.org") >= 1){
+    return true
+   } else {
+    return false
+   }
+  }
+function isValidPassword(str){
+  if (str.length < 8){
+    return false
+  } if (str.toUpperCase() === str){
+    return false
+  } if (str.toLowerCase() === str){
+    return false
+  } else {
+    return true
+  }
+  }
+  function isRegisteredUser(str){
+    if (str === user1){
+      return true
+    } if (str === user2){
+      return true
+    } if (str === user3){
+      return true
+    } else {
+      return false
+    }
+    }
+  
 
 // Our code below. Do not touch!
 
